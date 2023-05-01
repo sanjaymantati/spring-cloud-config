@@ -12,7 +12,6 @@
 
 ## Problem statement 
 * Here the configuration properties are stored in plain text in git repository(A source in our case.) This plain configuration properties will be consumed by config server and the config client module will fetch these properties in plaint text from config server. Properties in plain text will cause a security issue. If the git repository or config server is compromized, the properties will be exposed which contains sensitive data.
--> Image 
 
 ![Problem-image](https://github.com/sanjaymantati/spring-cloud-config/blob/master/doc/problem-graph.jpg?raw=true)
 
